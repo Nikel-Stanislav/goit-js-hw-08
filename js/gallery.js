@@ -90,11 +90,6 @@ galleryContainer.insertAdjacentHTML("beforeend", galleryElementsMarkup(images));
 
 const galleryLinks = document.querySelectorAll(".gallery-link");
 
-galleryLinks.forEach((link) => {
-  link.addEventListener("click", (event) => {
-    event.preventDefault();
-  });
-});
 //    < ------------------------------------------------------------------------------- >
 // const elementsMarkup = galleryElementsMarkup(images);
 // console.log(elementsMarkup);
